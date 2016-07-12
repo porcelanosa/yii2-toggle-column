@@ -10,6 +10,12 @@ composer require porcelanosa/yii2-toggle-column
 ### Usage
 In controller file add action
 ```php
+
+use porcelanosa\yii2togglecolumn\ToggleAction;
+use app\models\Artists;
+class ArtistsController	extends Controller
+{
+//.............
 public function actions()	{
 			return [
 				'toggle' => [
@@ -22,6 +28,9 @@ public function actions()	{
 				],
 			]
 	}
+//.......
+}
+	
 ```
 
 I view file add column to the GridView
