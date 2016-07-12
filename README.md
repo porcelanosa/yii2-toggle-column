@@ -8,6 +8,23 @@ composer require porcelanosa/yii2-toggle-column
 ```
 
 ### Usage
+In controller file add action
+```php
+public function actions()	{
+			return [
+				'toggle' => [
+					'class' => ToggleAction::className(),
+					'modelClass' => Artists::className(),
+					// Uncomment to enable flash messages
+					//'setFlash' => true,
+					'attribute' => 'active',
+					'primaryKey' => 'id'
+				],
+			]
+	}
+```
+
+I view file add column to the GridView
 
 ```php
  <?= GridView::widget([
