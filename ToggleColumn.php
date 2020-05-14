@@ -11,7 +11,7 @@
 	
 	
 	use yii\grid\DataColumn;
-	use yii\helpers\Html;
+	use yii\bootstrap4\Html;
 	use yii\web\View;
 	use Yii;
 	
