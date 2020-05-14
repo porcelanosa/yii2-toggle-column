@@ -42,12 +42,12 @@
 		/**
 		 * @var string glyphicon for 'on' value
 		 */
-		public $iconOn = 'ok';
+		public $iconOn = 'check-circle';
 		
 		/**
 		 * @var string glyphicon for 'off' value
 		 */
-		public $iconOff = 'remove';
+		public $iconOff = 'times';
 		
 		/**
 		 * @var string text to display on the 'on' link
@@ -115,7 +115,7 @@
 			}
 			
 			return Html::a(
-					'<span class="glyphicon glyphicon-' . $icon . '" ' . $colorStyle . '></span>',
+					'<span class="fas fa-' . $icon . '" ' . $colorStyle . '></span>',
 					$url,
 					[
 						'title'       => $title,
