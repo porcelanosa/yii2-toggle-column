@@ -1,6 +1,6 @@
 {
   "name": "porcelanosa/yii2-toggle-column",
-  "description": "Yii2 Extenstion for set seo attributes",
+  "description": "Yii2 Extenstion for GridView toggle column ",
   "version": "1.0",
   "keywords": [
     "yii",
